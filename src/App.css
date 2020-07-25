@@ -1,38 +1,122 @@
-.App {
-  text-align: center;
+.container{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  overflow: hidden;
+}
+.sky{
+  width: 100%;
+  height: 170px;
+  background-color: #191b1c;
+}
+.div_Street{
+  width: 100%;
+  background-color: black;
+}
+.Street{
+  width: 100%;
+  height: 170px;
+}
+.Street1{
+  width: 100%;
+  height: 130px;
+}
+.clouds{
+  width: 200px;
+  transform: translate(20%,20%);
+  margin-left: 60px;
+  margin-right: 60px;
+  margin-top: 10px;
+}
+.runClouds{
+  z-index: 1;
+}
+.Footpath{
+  width: 100%;
+  height: 100px;
+}
+.Treeani{
+position: absolute;
+top: 39%;
+left: 20%;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.Treeani1{
+  position: absolute;
+  top: 39%;
+  left: 40%;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.LED{
+    position: absolute;    
+    top:24%;
+    left: 81%;
+    width: 50px;
   }
-}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.LED2{
+  position: absolute;    
+    top:38%;
+    left: 35%;
+    width: 50px;
+    z-index: 2;
   }
-  to {
-    transform: rotate(360deg);
-  }
+
+.Cat{
+  width: 100%;
+  position: absolute;
+  top: 73%;
 }
+.Cat img{
+  width: 10%;
+  position: absolute;
+  right: -5%;
+}
+.Cat_men{
+  width: 100%;
+  position: absolute;
+  top: 67%;
+}
+.Cat_men img{
+  width: 10%;
+  position: absolute;
+  right: 10%;
+}
+.Female{
+  width: 100%;
+  position: absolute;
+  top: 74%;
+  z-index: 1;
+}
+.Female img{
+  position: absolute;
+  right: 2%;
+  z-index: 1;
+}
+.Moon{
+  position: absolute;
+  top: 3%;
+  right: 10%;
+}
+
+
+.Car1{
+  width: 100%;
+  position: absolute;
+  top: 37%;
+}
+.Car1 img{
+  width: 10%;
+  position: absolute;
+}
+.bike{
+  width: 100%;
+  position: absolute;
+  top: 46%;
+  z-index: 1;
+}
+.bike img{
+  width: 10%;
+  position: absolute;
+}
+
