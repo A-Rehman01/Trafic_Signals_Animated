@@ -109,6 +109,16 @@ left: 20%;
   width: 10%;
   position: absolute;
 }
+
+.Car2{
+  width: 100%;
+  position: absolute;
+  top: 25%;
+}
+.Car2 img{
+  /* width: 10%; */
+  position: absolute;
+}
 .bike{
   width: 100%;
   position: absolute;

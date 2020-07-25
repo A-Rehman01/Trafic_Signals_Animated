@@ -5,6 +5,7 @@ import Cloud1 from './../Images/cloud2.png'
 import Webanimation from '@wellyshen/use-web-animations';
 import Car1 from './Car1';
 import Bike from './Bike';
+import Car2 from './Car2';
 function Road (){
 
     const runClouds=Webanimation({
@@ -32,6 +33,7 @@ function Road (){
                 <img src={Street} alt="Street_Road" className="Street1" />
                 <Car1/>
                 <Bike/>
+                <Car2/>
             </div>
 
             
